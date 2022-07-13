@@ -1,0 +1,29 @@
+{
+  "name": "platial-cakes-cli",
+  "version": "1.0.0",
+  "description": "Node Command Line Application",
+  "main": "/bin/index.js",
+  "scripts": {
+    "test": "jest",
+    "order-cake": "node ./bin/index.js order-cake",
+    "list-cakes": "node ./bin/index.js list"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "license": "MIT",
+  "bin": {
+    "palatial-cakes-cli": "./bin/index.js"
+  },
+  "bugs": {
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "inquirer-test": "^2.0.1",
+    "jest-junit": "^13.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
