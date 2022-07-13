@@ -1,5 +1,5 @@
 {
-  "name": "platial-cakes-cli",
+  "name": "palatial-cakes-cli",
   "version": "1.0.0",
   "description": "Node Command Line Application",
   "main": "/bin/index.js",
