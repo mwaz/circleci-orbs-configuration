@@ -9,7 +9,7 @@
     "list-cakes": "node ./bin/index.js list"
   },
   "repository": {
-    "type": "git",
+    "type": "git"
   },
   "license": "MIT",
   "bin": {
